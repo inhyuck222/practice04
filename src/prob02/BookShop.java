@@ -35,6 +35,12 @@ public class BookShop {
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
 	}
+	
+	public static void displayBookInfo(Book[] books) {
+		for(Book book : books) {
+			System.out.println(book);
+		}
+	}
 
 
 }
